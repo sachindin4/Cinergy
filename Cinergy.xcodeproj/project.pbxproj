@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		815CC65E2B584F1800726C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC65D2B584F1800726C8D /* AppDelegate.swift */; };
+		815CC6602B584F1800726C8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC65F2B584F1800726C8D /* SceneDelegate.swift */; };
+		815CC6622B584F1800726C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6612B584F1800726C8D /* ViewController.swift */; };
+		815CC6652B584F1800726C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815CC6632B584F1800726C8D /* Main.storyboard */; };
+		815CC6672B584F1900726C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815CC6662B584F1900726C8D /* Assets.xcassets */; };
+		815CC66A2B584F1900726C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815CC6682B584F1900726C8D /* LaunchScreen.storyboard */; };
+		815CC6752B584F1A00726C8D /* CinergyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6742B584F1A00726C8D /* CinergyTests.swift */; };
+		815CC67F2B584F1A00726C8D /* CinergyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC67E2B584F1A00726C8D /* CinergyUITests.swift */; };
+		815CC6812B584F1A00726C8D /* CinergyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6802B584F1A00726C8D /* CinergyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		815CC6712B584F1A00726C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815CC6522B584F1800726C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815CC6592B584F1800726C8D;
+			remoteInfo = Cinergy;
+		};
+		815CC67B2B584F1A00726C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 815CC6522B584F1800726C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815CC6592B584F1800726C8D;
+			remoteInfo = Cinergy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		815CC65A2B584F1800726C8D /* Cinergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		815CC65D2B584F1800726C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		815CC65F2B584F1800726C8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		815CC6612B584F1800726C8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		815CC6642B584F1800726C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		815CC6662B584F1900726C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		815CC6692B584F1900726C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		815CC66B2B584F1900726C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815CC6702B584F1A00726C8D /* CinergyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinergyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815CC6742B584F1A00726C8D /* CinergyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinergyTests.swift; sourceTree = "<group>"; };
+		815CC67A2B584F1A00726C8D /* CinergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		815CC67E2B584F1A00726C8D /* CinergyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinergyUITests.swift; sourceTree = "<group>"; };
+		815CC6802B584F1A00726C8D /* CinergyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinergyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		815CC6572B584F1800726C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815CC66D2B584F1A00726C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815CC6772B584F1A00726C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		815CC6512B584F1800726C8D = {
+			isa = PBXGroup;
+			children = (
+				815CC65C2B584F1800726C8D /* Cinergy */,
+				815CC6732B584F1A00726C8D /* CinergyTests */,
+				815CC67D2B584F1A00726C8D /* CinergyUITests */,
+				815CC65B2B584F1800726C8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		815CC65B2B584F1800726C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				815CC65A2B584F1800726C8D /* Cinergy.app */,
+				815CC6702B584F1A00726C8D /* CinergyTests.xctest */,
+				815CC67A2B584F1A00726C8D /* CinergyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		815CC65C2B584F1800726C8D /* Cinergy */ = {
+			isa = PBXGroup;
+			children = (
+				815CC65D2B584F1800726C8D /* AppDelegate.swift */,
+				815CC65F2B584F1800726C8D /* SceneDelegate.swift */,
+				815CC6612B584F1800726C8D /* ViewController.swift */,
+				815CC6632B584F1800726C8D /* Main.storyboard */,
+				815CC6662B584F1900726C8D /* Assets.xcassets */,
+				815CC6682B584F1900726C8D /* LaunchScreen.storyboard */,
+				815CC66B2B584F1900726C8D /* Info.plist */,
+			);
+			path = Cinergy;
+			sourceTree = "<group>";
+		};
+		815CC6732B584F1A00726C8D /* CinergyTests */ = {
+			isa = PBXGroup;
+			children = (
+				815CC6742B584F1A00726C8D /* CinergyTests.swift */,
+			);
+			path = CinergyTests;
+			sourceTree = "<group>";
+		};
+		815CC67D2B584F1A00726C8D /* CinergyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				815CC67E2B584F1A00726C8D /* CinergyUITests.swift */,
+				815CC6802B584F1A00726C8D /* CinergyUITestsLaunchTests.swift */,
+			);
+			path = CinergyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		815CC6592B584F1800726C8D /* Cinergy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815CC6842B584F1A00726C8D /* Build configuration list for PBXNativeTarget "Cinergy" */;
+			buildPhases = (
+				815CC6562B584F1800726C8D /* Sources */,
+				815CC6572B584F1800726C8D /* Frameworks */,
+				815CC6582B584F1800726C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinergy;
+			productName = Cinergy;
+			productReference = 815CC65A2B584F1800726C8D /* Cinergy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		815CC66F2B584F1A00726C8D /* CinergyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815CC6872B584F1A00726C8D /* Build configuration list for PBXNativeTarget "CinergyTests" */;
+			buildPhases = (
+				815CC66C2B584F1A00726C8D /* Sources */,
+				815CC66D2B584F1A00726C8D /* Frameworks */,
+				815CC66E2B584F1A00726C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815CC6722B584F1A00726C8D /* PBXTargetDependency */,
+			);
+			name = CinergyTests;
+			productName = CinergyTests;
+			productReference = 815CC6702B584F1A00726C8D /* CinergyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		815CC6792B584F1A00726C8D /* CinergyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815CC68A2B584F1A00726C8D /* Build configuration list for PBXNativeTarget "CinergyUITests" */;
+			buildPhases = (
+				815CC6762B584F1A00726C8D /* Sources */,
+				815CC6772B584F1A00726C8D /* Frameworks */,
+				815CC6782B584F1A00726C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				815CC67C2B584F1A00726C8D /* PBXTargetDependency */,
+			);
+			name = CinergyUITests;
+			productName = CinergyUITests;
+			productReference = 815CC67A2B584F1A00726C8D /* CinergyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		815CC6522B584F1800726C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					815CC6592B584F1800726C8D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					815CC66F2B584F1A00726C8D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 815CC6592B584F1800726C8D;
+					};
+					815CC6792B584F1A00726C8D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 815CC6592B584F1800726C8D;
+					};
+				};
+			};
+			buildConfigurationList = 815CC6552B584F1800726C8D /* Build configuration list for PBXProject "Cinergy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 815CC6512B584F1800726C8D;
+			productRefGroup = 815CC65B2B584F1800726C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				815CC6592B584F1800726C8D /* Cinergy */,
+				815CC66F2B584F1A00726C8D /* CinergyTests */,
+				815CC6792B584F1A00726C8D /* CinergyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		815CC6582B584F1800726C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815CC66A2B584F1900726C8D /* LaunchScreen.storyboard in Resources */,
+				815CC6672B584F1900726C8D /* Assets.xcassets in Resources */,
+				815CC6652B584F1800726C8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815CC66E2B584F1A00726C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815CC6782B584F1A00726C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		815CC6562B584F1800726C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815CC6622B584F1800726C8D /* ViewController.swift in Sources */,
+				815CC65E2B584F1800726C8D /* AppDelegate.swift in Sources */,
+				815CC6602B584F1800726C8D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815CC66C2B584F1A00726C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815CC6752B584F1A00726C8D /* CinergyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815CC6762B584F1A00726C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815CC6812B584F1A00726C8D /* CinergyUITestsLaunchTests.swift in Sources */,
+				815CC67F2B584F1A00726C8D /* CinergyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		815CC6722B584F1A00726C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815CC6592B584F1800726C8D /* Cinergy */;
+			targetProxy = 815CC6712B584F1A00726C8D /* PBXContainerItemProxy */;
+		};
+		815CC67C2B584F1A00726C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815CC6592B584F1800726C8D /* Cinergy */;
+			targetProxy = 815CC67B2B584F1A00726C8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		815CC6632B584F1800726C8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815CC6642B584F1800726C8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		815CC6682B584F1900726C8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				815CC6692B584F1900726C8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		815CC6822B584F1A00726C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		815CC6832B584F1A00726C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		815CC6852B584F1A00726C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cinergy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachindinesh.Cinergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		815CC6862B584F1A00726C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cinergy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachindinesh.Cinergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		815CC6882B584F1A00726C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachindinesh.CinergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinergy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cinergy";
+			};
+			name = Debug;
+		};
+		815CC6892B584F1A00726C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachindinesh.CinergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinergy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cinergy";
+			};
+			name = Release;
+		};
+		815CC68B2B584F1A00726C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachindinesh.CinergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cinergy;
+			};
+			name = Debug;
+		};
+		815CC68C2B584F1A00726C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachindinesh.CinergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cinergy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		815CC6552B584F1800726C8D /* Build configuration list for PBXProject "Cinergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815CC6822B584F1A00726C8D /* Debug */,
+				815CC6832B584F1A00726C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815CC6842B584F1A00726C8D /* Build configuration list for PBXNativeTarget "Cinergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815CC6852B584F1A00726C8D /* Debug */,
+				815CC6862B584F1A00726C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815CC6872B584F1A00726C8D /* Build configuration list for PBXNativeTarget "CinergyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815CC6882B584F1A00726C8D /* Debug */,
+				815CC6892B584F1A00726C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815CC68A2B584F1A00726C8D /* Build configuration list for PBXNativeTarget "CinergyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815CC68B2B584F1A00726C8D /* Debug */,
+				815CC68C2B584F1A00726C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 815CC6522B584F1800726C8D /* Project object */;
+}
