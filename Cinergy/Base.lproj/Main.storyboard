@@ -16,24 +16,202 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKJ-nd-O1N">
-                                <rect key="frame" x="162" y="416" width="42" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MAM-um-zsg">
+                                <rect key="frame" x="76.666666666666686" y="59" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ALy-5j-kdj">
+                                <rect key="frame" x="16" y="287.66666666666669" width="30" height="29.666666666666686"/>
+                                <color key="tintColor" red="0.6784313917" green="0.79215681550000006" blue="0.38431376220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="G48-SH-vgF"/>
+                                    <constraint firstAttribute="height" constant="30" id="q45-Op-Es1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy a free popcorn on sign up." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrD-7w-wS9">
+                                <rect key="frame" x="54" y="292" width="323" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join The Magic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dk9-cl-BMM">
+                                <rect key="frame" x="16" y="195" width="369" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be Cinergy ELITE!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Oa-2z-qdi">
+                                <rect key="frame" x="16" y="230" width="369" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="crG-7P-Ucm">
+                                <rect key="frame" x="16" y="332" width="30" height="29.666666666666629"/>
+                                <color key="tintColor" red="0.6784313917" green="0.79215681550000006" blue="0.38431376220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="eDP-Xu-8Df"/>
+                                    <constraint firstAttribute="height" constant="30" id="tiq-V0-AgC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy a $5.00 Elite reward after 300 points to spend however you want" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjO-dp-47f">
+                                <rect key="frame" x="54" y="336.33333333333331" width="323" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FhM-L4-ghk">
+                                <rect key="frame" x="16" y="396.66666666666669" width="30" height="29.666666666666686"/>
+                                <color key="tintColor" red="0.6784313917" green="0.79215681550000006" blue="0.38431376220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="5my-vJ-RmE"/>
+                                    <constraint firstAttribute="height" constant="30" id="AUu-N6-bcJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy a special birthday movie ticket offer." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHY-Um-9dy">
+                                <rect key="frame" x="54" y="401" width="323" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sJV-PR-UJa">
+                                <rect key="frame" x="16" y="441" width="30" height="29.666666666666686"/>
+                                <color key="tintColor" red="0.6784313917" green="0.79215681550000006" blue="0.38431376220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="BJJ-hv-PF5"/>
+                                    <constraint firstAttribute="height" constant="30" id="ysj-of-ydN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy exclusive content, sneak peaks, and special offers!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQx-Jt-vee">
+                                <rect key="frame" x="54" y="445.33333333333331" width="323" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ewb-a8-wOz">
+                                <rect key="frame" x="116" y="586" width="161" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ry-vG-zbJ" customClass="CinergyButton" customModule="Cinergy" customModuleProvider="target">
+                                <rect key="frame" x="96" y="518" width="201" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Fdb-Ph-UHt"/>
+                                    <constraint firstAttribute="width" constant="201" id="Kwg-2A-R0Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Sign In Now!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="initialColor">
+                                        <color key="value" red="0.66274511810000003" green="0.8156862855" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="finalColor">
+                                        <color key="value" red="0.52549022440000004" green="0.63921570780000003" blue="0.2941176593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFn-Q9-NJd" customClass="CinergyButton" customModule="Cinergy" customModuleProvider="target">
+                                <rect key="frame" x="96" y="612" width="201" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="Zz6-GF-xN5"/>
+                                    <constraint firstAttribute="height" constant="44" id="ryY-Pq-DGx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="initialColor">
+                                        <color key="value" red="0.66274511810000003" green="0.8156862855" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="finalColor">
+                                        <color key="value" red="0.52549022440000004" green="0.63921570780000003" blue="0.2941176593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPH-G5-rPy" customClass="CinergyButton" customModule="Cinergy" customModuleProvider="target">
+                                <rect key="frame" x="96" y="672" width="201" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="WNO-SF-NhP"/>
+                                    <constraint firstAttribute="width" constant="201" id="dvc-Ww-c3V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Continue As Guest">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="initialColor">
+                                        <color key="value" red="0.66274511810000003" green="0.8156862855" blue="0.37647059560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="finalColor">
+                                        <color key="value" red="0.52549022440000004" green="0.63921570780000003" blue="0.2941176593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FhM-L4-ghk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0XE-Rb-V9h"/>
+                            <constraint firstItem="SFn-Q9-NJd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1bf-sh-fke"/>
+                            <constraint firstItem="jrD-7w-wS9" firstAttribute="top" secondItem="ALy-5j-kdj" secondAttribute="top" constant="4" id="5Rl-wj-DZe"/>
+                            <constraint firstItem="4Oa-2z-qdi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="230" id="7Qw-ga-VcK"/>
+                            <constraint firstItem="4Oa-2z-qdi" firstAttribute="leading" secondItem="FhM-L4-ghk" secondAttribute="leading" id="8sV-1A-KEU"/>
+                            <constraint firstItem="Ewb-a8-wOz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9TU-dO-Cmz"/>
+                            <constraint firstItem="Ewb-a8-wOz" firstAttribute="top" secondItem="1ry-vG-zbJ" secondAttribute="bottom" constant="24" id="ABH-q8-BvF"/>
+                            <constraint firstAttribute="trailing" secondItem="qjO-dp-47f" secondAttribute="trailing" constant="16" id="DLs-mH-97v"/>
+                            <constraint firstItem="sJV-PR-UJa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="FBy-ba-Mxj"/>
+                            <constraint firstItem="bPH-G5-rPy" firstAttribute="top" secondItem="SFn-Q9-NJd" secondAttribute="bottom" constant="16" id="Gbz-Le-2KR"/>
+                            <constraint firstItem="jrD-7w-wS9" firstAttribute="top" secondItem="4Oa-2z-qdi" secondAttribute="bottom" constant="32" id="HPs-nx-9eu"/>
+                            <constraint firstItem="qjO-dp-47f" firstAttribute="top" secondItem="jrD-7w-wS9" secondAttribute="bottom" constant="24" id="Jel-kg-8Mb"/>
+                            <constraint firstItem="qjO-dp-47f" firstAttribute="leading" secondItem="crG-7P-Ucm" secondAttribute="trailing" constant="8" id="Jxc-fj-m9C"/>
+                            <constraint firstItem="kHY-Um-9dy" firstAttribute="top" secondItem="FhM-L4-ghk" secondAttribute="top" constant="4" id="Mgf-Ye-gcn"/>
+                            <constraint firstItem="jQx-Jt-vee" firstAttribute="leading" secondItem="sJV-PR-UJa" secondAttribute="trailing" constant="8" id="MsF-kx-ADQ"/>
+                            <constraint firstItem="1ry-vG-zbJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pci-RX-XvD"/>
+                            <constraint firstItem="4Oa-2z-qdi" firstAttribute="top" secondItem="dk9-cl-BMM" secondAttribute="bottom" constant="8" symbolic="YES" id="Ta3-0d-yIB"/>
+                            <constraint firstItem="4Oa-2z-qdi" firstAttribute="trailing" secondItem="dk9-cl-BMM" secondAttribute="trailing" id="UAL-ha-I0q"/>
+                            <constraint firstItem="crG-7P-Ucm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UHt-dX-obO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jrD-7w-wS9" secondAttribute="trailing" constant="16" id="X0t-ha-GZY"/>
+                            <constraint firstItem="kHY-Um-9dy" firstAttribute="top" secondItem="qjO-dp-47f" secondAttribute="bottom" constant="24" id="YOl-OJ-3fT"/>
+                            <constraint firstItem="kHY-Um-9dy" firstAttribute="leading" secondItem="FhM-L4-ghk" secondAttribute="trailing" constant="8" id="ZBJ-bX-D9V"/>
+                            <constraint firstItem="ALy-5j-kdj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cir-eM-Oou"/>
+                            <constraint firstItem="4Oa-2z-qdi" firstAttribute="leading" secondItem="ALy-5j-kdj" secondAttribute="leading" id="hKK-bp-cot"/>
+                            <constraint firstItem="4Oa-2z-qdi" firstAttribute="leading" secondItem="sJV-PR-UJa" secondAttribute="leading" id="iXD-V8-Qjm"/>
+                            <constraint firstAttribute="trailing" secondItem="jQx-Jt-vee" secondAttribute="trailing" constant="16" id="j6v-Oy-s4W"/>
+                            <constraint firstItem="jrD-7w-wS9" firstAttribute="leading" secondItem="ALy-5j-kdj" secondAttribute="trailing" constant="8" id="k0i-x0-p9b"/>
+                            <constraint firstItem="4Oa-2z-qdi" firstAttribute="leading" secondItem="crG-7P-Ucm" secondAttribute="leading" id="k0v-h0-Cl8"/>
+                            <constraint firstItem="1ry-vG-zbJ" firstAttribute="top" secondItem="jQx-Jt-vee" secondAttribute="bottom" constant="32" id="lMc-UL-rrm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Oa-2z-qdi" secondAttribute="trailing" constant="8" id="pZP-8m-jsO"/>
+                            <constraint firstItem="bPH-G5-rPy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rYH-Ex-2TT"/>
+                            <constraint firstItem="jQx-Jt-vee" firstAttribute="top" secondItem="sJV-PR-UJa" secondAttribute="top" constant="4" id="s4q-rP-kws"/>
+                            <constraint firstItem="jQx-Jt-vee" firstAttribute="top" secondItem="kHY-Um-9dy" secondAttribute="bottom" constant="24" id="sy0-I2-2cR"/>
+                            <constraint firstItem="4Oa-2z-qdi" firstAttribute="leading" secondItem="dk9-cl-BMM" secondAttribute="leading" id="uFd-bm-eJo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kHY-Um-9dy" secondAttribute="trailing" constant="16" id="ug2-jQ-z4t"/>
+                            <constraint firstItem="SFn-Q9-NJd" firstAttribute="top" secondItem="Ewb-a8-wOz" secondAttribute="bottom" constant="8" id="vVM-Ty-sHy"/>
+                            <constraint firstItem="qjO-dp-47f" firstAttribute="top" secondItem="crG-7P-Ucm" secondAttribute="top" constant="4" id="x2p-hB-RRW"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21" y="4"/>
+            <point key="canvasLocation" x="20.610687022900763" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
+        <image name="logo" width="235.66667175292969" height="49"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
