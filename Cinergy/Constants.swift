@@ -30,7 +30,7 @@ struct Constants {
         //Headers
         static let contentType = "Content-Type"
         static let authorization = "Authorization"
-        static let userID = "user_id"
+        static let userID = "userid"
     }
     
     struct APIConstant {

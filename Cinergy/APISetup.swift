@@ -70,4 +70,46 @@ class APISetup {
         param[Constants.APIKey.loginType] = 2
         return param
     }
+    
+    func moviesListRequest(userModel: LoginModel.UserModel) -> URLRequest {
+        let url = URL(string: Constants.baseUrl + Constants.EndPoint.escapeRoomMovies)!
+        var request = URLRequest(url: url)
+        request.httpMethod = Constants.APIConstant.postMethod
+        request.allHTTPHeaderFields = commonHeaders()
+        request.addValue(String(userModel.id), forHTTPHeaderField: Constants.APIKey.userID)
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: moviesListParams(memberId: String(userModel.memberId ?? 0)))
+        } catch {
+            return request
+        }
+        return request
+    }
+    
+    fileprivate func moviesListParams(memberId: String) -> Parameters {
+        var param = commonParams()
+        param[Constants.APIKey.memberId] = memberId
+        param[Constants.APIKey.locationId] = 5
+        return param
+    }
+    
+    func movieInfoRequest() -> URLRequest {
+        let url = URL(string: Constants.baseUrl + Constants.EndPoint.escapeRoomMovies)!
+        var request = URLRequest(url: url)
+        request.httpMethod = Constants.APIConstant.postMethod
+        request.allHTTPHeaderFields = commonHeaders()
+        request.addValue("11", forHTTPHeaderField: Constants.APIKey.userID)
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: moviesInfoParams())
+        } catch {
+            return request
+        }
+        return request
+    }
+    
+    fileprivate func moviesInfoParams() -> Parameters {
+        var param = commonParams()
+        param[Constants.APIKey.movieId] = "HO00001620"
+        param[Constants.APIKey.locationId] = 5
+        return param
+    }
 }

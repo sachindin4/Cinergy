@@ -10,17 +10,25 @@ import UIKit
 class LoginViewController: UIViewController {
 
     var viewModel: LoginViewModel!
-    
+    var userModel: LoginModel.UserModel?
     @IBAction func continueButtonClicked(_ sender: Any) {
         viewModel.performLogin(completion: { result in
-            switch result{
-            case .success(let loginModel): break
-                //API Success WIP Navigation to Home screen
-            case .failure(let error): break
-                //API Fail Show error
+            DispatchQueue.main.async {
+                switch result{
+                case .success(let loginModel):
+                    //API Success WIP Navigation to Home screen
+                    self.userModel = loginModel.user
+                    if let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController {
+                        homeVC.viewModel.userModel = self.userModel
+                        self.navigationController?.pushViewController(homeVC, animated: true)
+                    }
+                case .failure(_): break
+                    //API Fail Show error
+                }
             }
         })
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
