@@ -51,6 +51,12 @@
 		815CC6F22B586DF700726C8D /* CinergyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F12B586DF700726C8D /* CinergyButton.swift */; };
 		815CC6F32B586DF700726C8D /* CinergyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F12B586DF700726C8D /* CinergyButton.swift */; };
 		815CC6F42B586DF700726C8D /* CinergyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F12B586DF700726C8D /* CinergyButton.swift */; };
+		815CC6F62B591E9F00726C8D /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F52B591E9F00726C8D /* TokenManager.swift */; };
+		815CC6F72B591E9F00726C8D /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F52B591E9F00726C8D /* TokenManager.swift */; };
+		815CC6F82B591E9F00726C8D /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F52B591E9F00726C8D /* TokenManager.swift */; };
+		815CC6FA2B596FB300726C8D /* APISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F92B596FB300726C8D /* APISetup.swift */; };
+		815CC6FB2B596FB300726C8D /* APISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F92B596FB300726C8D /* APISetup.swift */; };
+		815CC6FC2B596FB300726C8D /* APISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F92B596FB300726C8D /* APISetup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +101,8 @@
 		815CC6E92B5857EB00726C8D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		815CC6ED2B58580300726C8D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		815CC6F12B586DF700726C8D /* CinergyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinergyButton.swift; sourceTree = "<group>"; };
+		815CC6F52B591E9F00726C8D /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		815CC6F92B596FB300726C8D /* APISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISetup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +164,8 @@
 				815CC6D42B5852DB00726C8D /* Booking */,
 				815CC6E92B5857EB00726C8D /* Constants.swift */,
 				815CC6ED2B58580300726C8D /* APIService.swift */,
+				815CC6F92B596FB300726C8D /* APISetup.swift */,
+				815CC6F52B591E9F00726C8D /* TokenManager.swift */,
 				815CC6F12B586DF700726C8D /* CinergyButton.swift */,
 			);
 			path = Cinergy;
@@ -343,9 +353,11 @@
 				815CC6BF2B5852C300726C8D /* HomeViewModel.swift in Sources */,
 				815CC6F22B586DF700726C8D /* CinergyButton.swift in Sources */,
 				815CC6D12B5852D100726C8D /* LoginViewModel.swift in Sources */,
+				815CC6FA2B596FB300726C8D /* APISetup.swift in Sources */,
 				815CC6DE2B5853A700726C8D /* BookingModel.swift in Sources */,
 				815CC65E2B584F1800726C8D /* AppDelegate.swift in Sources */,
 				815CC6EA2B5857EB00726C8D /* Constants.swift in Sources */,
+				815CC6F62B591E9F00726C8D /* TokenManager.swift in Sources */,
 				815CC6CB2B5852D100726C8D /* LoginModel.swift in Sources */,
 				815CC6C52B5852C300726C8D /* HomeModel.swift in Sources */,
 				815CC6932B58518C00726C8D /* LoginViewController.swift in Sources */,
@@ -362,6 +374,7 @@
 			files = (
 				815CC6EF2B58580300726C8D /* APIService.swift in Sources */,
 				815CC6C32B5852C300726C8D /* HomeViewController.swift in Sources */,
+				815CC6FB2B596FB300726C8D /* APISetup.swift in Sources */,
 				815CC6DF2B5853A700726C8D /* BookingModel.swift in Sources */,
 				815CC6CC2B5852D100726C8D /* LoginModel.swift in Sources */,
 				815CC6942B58518C00726C8D /* LoginViewController.swift in Sources */,
@@ -373,6 +386,7 @@
 				815CC6EB2B5857EB00726C8D /* Constants.swift in Sources */,
 				815CC6C02B5852C300726C8D /* HomeViewModel.swift in Sources */,
 				815CC6D22B5852D100726C8D /* LoginViewModel.swift in Sources */,
+				815CC6F72B591E9F00726C8D /* TokenManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,9 +398,11 @@
 				815CC6812B584F1A00726C8D /* CinergyUITestsLaunchTests.swift in Sources */,
 				815CC6C72B5852C300726C8D /* HomeModel.swift in Sources */,
 				815CC6F42B586DF700726C8D /* CinergyButton.swift in Sources */,
+				815CC6FC2B596FB300726C8D /* APISetup.swift in Sources */,
 				815CC6EC2B5857EB00726C8D /* Constants.swift in Sources */,
 				815CC6F02B58580300726C8D /* APIService.swift in Sources */,
 				815CC6C12B5852C300726C8D /* HomeViewModel.swift in Sources */,
+				815CC6F82B591E9F00726C8D /* TokenManager.swift in Sources */,
 				815CC6CD2B5852D100726C8D /* LoginModel.swift in Sources */,
 				815CC67F2B584F1A00726C8D /* CinergyUITests.swift in Sources */,
 				815CC6D32B5852D100726C8D /* LoginViewModel.swift in Sources */,
