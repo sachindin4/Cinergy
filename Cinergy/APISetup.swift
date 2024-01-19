@@ -24,8 +24,6 @@ class APISetup {
     
     fileprivate func commonParams() -> Parameters {
         let deviceUUID = UIDevice.current.identifierForVendor?.uuidString ?? ""
-        print(deviceUUID)
-        print("Hell world")
         var params = Parameters()
         params[Constants.APIKey.deviceType] = 2
         params[Constants.APIKey.deviceId] =  "CI-\(deviceUUID)"

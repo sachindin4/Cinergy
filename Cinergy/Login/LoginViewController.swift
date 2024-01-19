@@ -19,7 +19,7 @@ class LoginViewController: UIViewController {
                     //API Success WIP Navigation to Home screen
                     self.userModel = loginModel.user
                     if let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController {
-                        homeVC.viewModel.userModel = self.userModel
+                        homeVC.moviesListViewModel.userModel = self.userModel
                         self.navigationController?.pushViewController(homeVC, animated: true)
                     }
                 case .failure(_): break
