@@ -323,7 +323,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1n5-kf-B4j">
-                                <rect key="frame" x="16" y="336" width="361" height="56"/>
+                                <rect key="frame" x="0.0" y="336" width="393" height="56"/>
                                 <color key="backgroundColor" red="0.95386860260277706" green="0.95386860260277706" blue="0.95386860260277706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="efl-Fl-83A"/>
@@ -379,7 +379,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="0U9-4X-fbh">
-                                <rect key="frame" x="16" y="445" width="361" height="56"/>
+                                <rect key="frame" x="0.0" y="445" width="393" height="56"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="OCg-E9-uqG"/>
@@ -446,7 +446,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="B8D-PG-ZPI" firstAttribute="leading" secondItem="WEA-We-qqQ" secondAttribute="leading" constant="16" id="1ZZ-xR-bPa"/>
-                            <constraint firstItem="0U9-4X-fbh" firstAttribute="leading" secondItem="WEA-We-qqQ" secondAttribute="leading" constant="16" id="5aq-uy-Ql9"/>
+                            <constraint firstItem="0U9-4X-fbh" firstAttribute="leading" secondItem="WEA-We-qqQ" secondAttribute="leading" id="5aq-uy-Ql9"/>
                             <constraint firstItem="aX6-ho-vU8" firstAttribute="top" secondItem="XD8-pC-zUr" secondAttribute="top" id="A6i-oH-wOr"/>
                             <constraint firstAttribute="bottom" secondItem="0U9-4X-fbh" secondAttribute="bottom" constant="351" id="Bzj-hD-Q1p"/>
                             <constraint firstItem="P1W-wv-DxB" firstAttribute="leading" secondItem="lE3-Z9-bgk" secondAttribute="trailing" constant="8" symbolic="YES" id="H04-C1-t2Y"/>
@@ -454,14 +454,14 @@
                             <constraint firstItem="WEA-We-qqQ" firstAttribute="trailing" secondItem="B8D-PG-ZPI" secondAttribute="trailing" constant="16" id="K4g-BV-oMA"/>
                             <constraint firstItem="aX6-ho-vU8" firstAttribute="leading" secondItem="XD8-pC-zUr" secondAttribute="trailing" constant="8" id="O3c-zm-irW"/>
                             <constraint firstItem="TCF-1g-hgI" firstAttribute="centerX" secondItem="bha-Ma-LCf" secondAttribute="centerX" id="PoL-dw-Pqv"/>
-                            <constraint firstItem="WEA-We-qqQ" firstAttribute="trailing" secondItem="0U9-4X-fbh" secondAttribute="trailing" constant="16" id="RBT-EZ-5DJ"/>
+                            <constraint firstItem="WEA-We-qqQ" firstAttribute="trailing" secondItem="0U9-4X-fbh" secondAttribute="trailing" id="RBT-EZ-5DJ"/>
                             <constraint firstItem="lE3-Z9-bgk" firstAttribute="leading" secondItem="WEA-We-qqQ" secondAttribute="leading" constant="16" id="T5C-Bk-FQ5"/>
                             <constraint firstItem="qo2-mS-0zZ" firstAttribute="leading" secondItem="WEA-We-qqQ" secondAttribute="leading" constant="16" id="aQQ-OQ-Y6U"/>
                             <constraint firstItem="B8D-PG-ZPI" firstAttribute="top" secondItem="1n5-kf-B4j" secondAttribute="bottom" constant="16" id="eng-Zf-T8V"/>
                             <constraint firstItem="XD8-pC-zUr" firstAttribute="top" secondItem="P1W-wv-DxB" secondAttribute="bottom" constant="8" symbolic="YES" id="flZ-SE-3Va"/>
-                            <constraint firstItem="1n5-kf-B4j" firstAttribute="leading" secondItem="WEA-We-qqQ" secondAttribute="leading" constant="16" id="hNq-gN-Uwy"/>
+                            <constraint firstItem="1n5-kf-B4j" firstAttribute="leading" secondItem="WEA-We-qqQ" secondAttribute="leading" id="hNq-gN-Uwy"/>
                             <constraint firstItem="XD8-pC-zUr" firstAttribute="leading" secondItem="P1W-wv-DxB" secondAttribute="leading" id="hZv-kT-ihC"/>
-                            <constraint firstItem="WEA-We-qqQ" firstAttribute="trailing" secondItem="1n5-kf-B4j" secondAttribute="trailing" constant="16" id="hh8-ws-zCp"/>
+                            <constraint firstItem="WEA-We-qqQ" firstAttribute="trailing" secondItem="1n5-kf-B4j" secondAttribute="trailing" id="hh8-ws-zCp"/>
                             <constraint firstItem="WEA-We-qqQ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aX6-ho-vU8" secondAttribute="trailing" symbolic="YES" id="iO4-UB-Rx0"/>
                             <constraint firstItem="WEA-We-qqQ" firstAttribute="trailing" secondItem="P1W-wv-DxB" secondAttribute="trailing" constant="16" id="jyv-xQ-6EC"/>
                             <constraint firstAttribute="bottom" secondItem="TCF-1g-hgI" secondAttribute="bottom" constant="32" id="ltm-e8-21v"/>
