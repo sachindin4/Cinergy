@@ -9,10 +9,7 @@ import UIKit
 
 class BookingViewController: UIViewController {
     
-    var movieInfo: HomeModel.MoviesList!
-    var showTimeInfo : [BookingModel.MovieInfo.ShowTime]!
-    var dateSelectedIndex: IndexPath?
-
+    var bookingViewModel = BookingViewModel()
     @IBAction func continueButton(_ sender: Any) {
 
     }
@@ -35,8 +32,8 @@ class BookingViewController: UIViewController {
     }
     
     func setupViewContent() {
-        titleLabel.text = movieInfo.title
-        if let imageURL = URL(string: movieInfo.imageUrl){
+        titleLabel.text = bookingViewModel.movieInfo.title
+        if let imageURL = URL(string: bookingViewModel.movieInfo.imageUrl){
             DispatchQueue.global().async {
                 if let imageData = try? Data(contentsOf: imageURL){
                     DispatchQueue.main.async {
@@ -45,8 +42,8 @@ class BookingViewController: UIViewController {
                 }
             }
         }
-        ratingLabel.text = movieInfo.rating
-        timeLabel.text = movieInfo.runTime + "min"
+        ratingLabel.text = bookingViewModel.movieInfo.rating
+        timeLabel.text = bookingViewModel.movieInfo.runTime + "min"
     }
         
     func setupCollectionViews() {
@@ -55,20 +52,15 @@ class BookingViewController: UIViewController {
             self.dateCollectionView.dataSource = self
             self.timeCollectionView.delegate = self
             self.timeCollectionView.dataSource = self
-            self.dateSelectedIndex = IndexPath(item: 0, section: 0)
+            self.bookingViewModel.dateSelectedIndex = IndexPath(item: 0, section: 0)
 
         }
     }
     
     func selectCell(at indexPath: IndexPath) {
-        dateSelectedIndex = indexPath
+        bookingViewModel.dateSelectedIndex = indexPath
         if let cell = dateCollectionView.cellForItem(at: indexPath) {
-            let hexColor = 0xd4dec3
-            let red = CGFloat((hexColor & 0xFF0000) >> 16) / 255.0
-            let green = CGFloat((hexColor & 0x00FF00) >> 8) / 255.0
-            let blue = CGFloat(hexColor & 0x0000FF) / 255.0
-            let color = UIColor(red: red, green: green, blue: blue, alpha: 1.0)
-            cell.contentView.backgroundColor = color
+            cell.contentView.backgroundColor = bookingViewModel.getColor()
         }
     }
 }
@@ -76,10 +68,10 @@ class BookingViewController: UIViewController {
 extension BookingViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == dateCollectionView {
-            return showTimeInfo.count
+            return bookingViewModel.showTimeInfo.count
         } else if collectionView == timeCollectionView {
-            if let dateSelectedIndex = dateSelectedIndex {
-                return showTimeInfo[dateSelectedIndex.item].sessions.count
+            if let dateSelectedIndex = bookingViewModel.dateSelectedIndex {
+                return bookingViewModel.showTimeInfo[dateSelectedIndex.item].sessions.count
             } else {
                 return 0
             }
@@ -90,20 +82,9 @@ extension BookingViewController: UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == dateCollectionView {
             if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BookingDateCollectionViewCell", for: indexPath) as? BookingDateCollectionViewCell {
-                let inputFormatter = DateFormatter()
-                inputFormatter.dateFormat = "yyyy-MM-dd"
-                if let inputDate = inputFormatter.date(from: showTimeInfo[indexPath.item].date) {
-                    let dateFormatter = DateFormatter()
-                    dateFormatter.dateFormat = "MMM dd"
-                    let date = dateFormatter.string(from: inputDate)
-                    cell.dateLabel.text = date
-                    
-                    let dayFormatter = DateFormatter()
-                    dayFormatter.dateFormat = "EEE"
-                    let day = dayFormatter.string(from: inputDate)
-                    cell.dayLabel.text = day
-                }
-                if indexPath == dateSelectedIndex {
+                cell.dateLabel.text = bookingViewModel.dateFormatConverter(index: indexPath.item).0
+                cell.dayLabel.text = bookingViewModel.dateFormatConverter(index: indexPath.item).1
+                if indexPath == bookingViewModel.dateSelectedIndex {
                     selectCell(at: indexPath)
                 } else {
                     cell.contentView.backgroundColor = UIColor.clear
@@ -112,7 +93,7 @@ extension BookingViewController: UICollectionViewDelegate, UICollectionViewDataS
             }
         } else if collectionView == timeCollectionView {
             if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BookingTimeCollectionViewCell", for: indexPath) as? BookingTimeCollectionViewCell {
-                cell.timeLabel.text = showTimeInfo[dateSelectedIndex?.item ?? 0].sessions[indexPath.item].showTime
+                cell.timeLabel.text = bookingViewModel.showTimeInfo[bookingViewModel.dateSelectedIndex?.item ?? 0].sessions[indexPath.item].showTime
                 return cell
             }
         }
@@ -121,7 +102,7 @@ extension BookingViewController: UICollectionViewDelegate, UICollectionViewDataS
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == dateCollectionView{
-            if let dateSelectedIndex = dateSelectedIndex, let selectedCell = dateCollectionView.cellForItem(at: dateSelectedIndex) {
+            if let dateSelectedIndex = bookingViewModel.dateSelectedIndex, let selectedCell = dateCollectionView.cellForItem(at: dateSelectedIndex) {
                 selectedCell.contentView.backgroundColor = .clear
             }
             selectCell(at: indexPath)
