@@ -84,11 +84,7 @@ class APIService {
             guard let data = data else {
                 completion(.failure(NSError(domain: "Error", code: 1, userInfo: nil)))
                 return
-            }
-            
-            var dateString = String(data: data, encoding: .utf8) ?? ""
-            
-            
+            }            
             do {
                 let decoder = JSONDecoder()
                 let bookingInfo =  try decoder.decode(BookingModel.self, from: data)
