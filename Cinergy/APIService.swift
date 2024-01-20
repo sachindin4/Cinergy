@@ -75,8 +75,8 @@ class APIService {
         task.resume()
     }
     
-    func getMovieInfo(completion: @escaping (Result<BookingModel, Error>) -> Void) {
-        let task = URLSession.shared.dataTask(with: APISetup.shared.movieInfoRequest()) { (data, response, error) in
+    func getMovieInfo(movieId: String, userId: String, completion: @escaping (Result<BookingModel, Error>) -> Void) {
+        let task = URLSession.shared.dataTask(with: APISetup.shared.movieInfoRequest(movieId: movieId, userId: userId)) { (data, response, error) in
             if let error = error {
                 completion(.failure(error))
                 return
@@ -85,9 +85,14 @@ class APIService {
                 completion(.failure(NSError(domain: "Error", code: 1, userInfo: nil)))
                 return
             }
+            
+            var dateString = String(data: data, encoding: .utf8) ?? ""
+            
+            
             do {
                 let decoder = JSONDecoder()
                 let bookingInfo =  try decoder.decode(BookingModel.self, from: data)
+                print(bookingInfo)
                 completion(.success(bookingInfo))
             } catch {
                 print(error)

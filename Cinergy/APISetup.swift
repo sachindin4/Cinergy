@@ -90,23 +90,23 @@ class APISetup {
         return param
     }
     
-    func movieInfoRequest() -> URLRequest {
-        let url = URL(string: Constants.baseUrl + Constants.EndPoint.escapeRoomMovies)!
+    func movieInfoRequest(movieId: String, userId: String) -> URLRequest {
+        let url = URL(string: Constants.baseUrl + Constants.EndPoint.getMovieInfo)!
         var request = URLRequest(url: url)
         request.httpMethod = Constants.APIConstant.postMethod
         request.allHTTPHeaderFields = commonHeaders()
-        request.addValue("11", forHTTPHeaderField: Constants.APIKey.userID)
+        request.addValue(userId, forHTTPHeaderField: Constants.APIKey.userID)
         do {
-            request.httpBody = try JSONSerialization.data(withJSONObject: moviesInfoParams())
+            request.httpBody = try JSONSerialization.data(withJSONObject: moviesInfoParams(movieId: movieId))
         } catch {
             return request
         }
         return request
     }
     
-    fileprivate func moviesInfoParams() -> Parameters {
+    fileprivate func moviesInfoParams(movieId: String) -> Parameters {
         var param = commonParams()
-        param[Constants.APIKey.movieId] = "HO00001620"
+        param[Constants.APIKey.movieId] = movieId
         param[Constants.APIKey.locationId] = 5
         return param
     }

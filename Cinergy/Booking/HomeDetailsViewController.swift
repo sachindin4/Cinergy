@@ -1,5 +1,5 @@
 //
-//  BookingDetailsViewController.swift
+//  HomeDetailsViewController.swift
 //  Cinergy
 //
 //  Created by Vignesh VG on 1/19/24.
@@ -7,8 +7,28 @@
 
 import UIKit
 
-class BookingDetailsViewController: UIViewController, UISheetPresentationControllerDelegate {
+protocol HomeViewModelDelegate {
+    func bookNowClicked(movieId: String?)
+}
+
+class HomeDetailsViewController: UIViewController, UISheetPresentationControllerDelegate {
+    @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet weak var countLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBAction func closeButton(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    @IBAction func bookNoButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: {
+            self.delegate?.bookNowClicked(movieId: self.selectedMovie.movieId)
+        })
+//        self.dismiss(animated: false)
+//        delegate?.bookNowClicked(movieId: selectedMovie.movieId)
+    }
+    var delegate: HomeViewModelDelegate?
     @IBOutlet weak var movieImage: UIImageView!
+    var selectedMovie: HomeModel.MoviesList!
     override var sheetPresentationController: UISheetPresentationController {
         presentationController as! UISheetPresentationController
     }
@@ -17,12 +37,15 @@ class BookingDetailsViewController: UIViewController, UISheetPresentationControl
 
         // Do any additional setup after loading the view.
         sheetPresentationController.delegate = self
-//        sheetPresentationController.selectedDetentIdentifier = .medium
         sheetPresentationController.prefersGrabberVisible = false
         sheetPresentationController.detents = [
             .medium()]
         
-        if let imageURL = URL(string: "https://tickets.cinergycinemas.com/CDN/media/entity/get/FilmPosterGraphic/HO00001620?referenceScheme=HeadOffice&allowPlaceHolder=true&height=500&vista_cache=05102021"){
+        configureUI()
+    }
+
+    func configureUI() {
+        if let imageURL = URL(string: selectedMovie.imageUrl){
             DispatchQueue.global().async {
                 if let imageData = try? Data(contentsOf: imageURL){
                     DispatchQueue.main.async {
@@ -31,8 +54,11 @@ class BookingDetailsViewController: UIViewController, UISheetPresentationControl
                 }
             }
         }
+        titleLabel.text = selectedMovie.title
+        timeLabel.text = "60" + "mins"
+        countLabel.text = "Upto 10 members"
+        synopsisLabel.text = selectedMovie.synopsis
     }
-
 
     /*
     // MARK: - Navigation

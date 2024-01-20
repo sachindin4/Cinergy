@@ -290,7 +290,7 @@
         <!--Booking View Controller-->
         <scene sceneID="joc-Vo-Bzg">
             <objects>
-                <viewController id="W5j-na-2fS" customClass="BookingViewController" customModule="Cinergy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BookingViewController" id="W5j-na-2fS" customClass="BookingViewController" customModule="Cinergy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bha-Ma-LCf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

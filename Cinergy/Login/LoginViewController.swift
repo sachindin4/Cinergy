@@ -16,7 +16,6 @@ class LoginViewController: UIViewController {
             DispatchQueue.main.async {
                 switch result{
                 case .success(let loginModel):
-                    //API Success WIP Navigation to Home screen
                     self.userModel = loginModel.user
                     if let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController {
                         homeVC.moviesListViewModel.userModel = self.userModel
