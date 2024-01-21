@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81545E522B5D304E00BC523D /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E502B5D304E00BC523D /* HomeDetailsViewController.swift */; };
+		81545E532B5D304E00BC523D /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81545E512B5D304E00BC523D /* HomeDetailsViewController.xib */; };
 		815CC65E2B584F1800726C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC65D2B584F1800726C8D /* AppDelegate.swift */; };
 		815CC6602B584F1800726C8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC65F2B584F1800726C8D /* SceneDelegate.swift */; };
 		815CC6652B584F1800726C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815CC6632B584F1800726C8D /* Main.storyboard */; };
@@ -60,12 +62,6 @@
 		815CC6FE2B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */; };
 		815CC6FF2B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */; };
 		815CC7002B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */; };
-		815CC70F2B5ABD1D00726C8D /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC70D2B5ABD1D00726C8D /* HomeDetailsViewController.swift */; };
-		815CC7102B5ABD1D00726C8D /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC70D2B5ABD1D00726C8D /* HomeDetailsViewController.swift */; };
-		815CC7112B5ABD1D00726C8D /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC70D2B5ABD1D00726C8D /* HomeDetailsViewController.swift */; };
-		815CC7122B5ABD1D00726C8D /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815CC70E2B5ABD1D00726C8D /* HomeDetailsViewController.xib */; };
-		815CC7132B5ABD1D00726C8D /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815CC70E2B5ABD1D00726C8D /* HomeDetailsViewController.xib */; };
-		815CC7142B5ABD1D00726C8D /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815CC70E2B5ABD1D00726C8D /* HomeDetailsViewController.xib */; };
 		81E4D7442B5BE9BF00716F24 /* BookingTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4D7432B5BE9BF00716F24 /* BookingTimeCollectionViewCell.swift */; };
 		81E4D7462B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4D7452B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift */; };
 		81E4D7472B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4D7452B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift */; };
@@ -90,6 +86,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81545E502B5D304E00BC523D /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeDetailsViewController.swift; path = Home/HomeDetailsViewController.swift; sourceTree = "<group>"; };
+		81545E512B5D304E00BC523D /* HomeDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeDetailsViewController.xib; path = Home/HomeDetailsViewController.xib; sourceTree = "<group>"; };
 		815CC65A2B584F1800726C8D /* Cinergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		815CC65D2B584F1800726C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		815CC65F2B584F1800726C8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,8 +115,6 @@
 		815CC6F52B591E9F00726C8D /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
 		815CC6F92B596FB300726C8D /* APISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISetup.swift; sourceTree = "<group>"; };
 		815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCollectionViewCell.swift; path = Home/HomeCollectionViewCell.swift; sourceTree = "<group>"; };
-		815CC70D2B5ABD1D00726C8D /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeDetailsViewController.swift; path = Booking/HomeDetailsViewController.swift; sourceTree = "<group>"; };
-		815CC70E2B5ABD1D00726C8D /* HomeDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeDetailsViewController.xib; path = Booking/HomeDetailsViewController.xib; sourceTree = "<group>"; };
 		81E4D7432B5BE9BF00716F24 /* BookingTimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookingTimeCollectionViewCell.swift; path = Booking/BookingTimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		81E4D7452B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookingDateCollectionViewCell.swift; path = Booking/BookingDateCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -219,12 +215,12 @@
 		815CC6A32B5851F500726C8D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				81545E502B5D304E00BC523D /* HomeDetailsViewController.swift */,
+				81545E512B5D304E00BC523D /* HomeDetailsViewController.xib */,
 				815CC6BE2B5852C300726C8D /* HomeModel.swift */,
 				815CC6BD2B5852C300726C8D /* HomeViewController.swift */,
 				815CC6BC2B5852C300726C8D /* HomeViewModel.swift */,
 				815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */,
-				815CC70D2B5ABD1D00726C8D /* HomeDetailsViewController.swift */,
-				815CC70E2B5ABD1D00726C8D /* HomeDetailsViewController.xib */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -345,9 +341,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81545E532B5D304E00BC523D /* HomeDetailsViewController.xib in Resources */,
 				815CC66A2B584F1900726C8D /* LaunchScreen.storyboard in Resources */,
 				815CC6672B584F1900726C8D /* Assets.xcassets in Resources */,
-				815CC7122B5ABD1D00726C8D /* HomeDetailsViewController.xib in Resources */,
 				815CC6652B584F1800726C8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +352,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				815CC7132B5ABD1D00726C8D /* HomeDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +359,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				815CC7142B5ABD1D00726C8D /* HomeDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +377,7 @@
 				815CC6D12B5852D100726C8D /* LoginViewModel.swift in Sources */,
 				815CC6FA2B596FB300726C8D /* APISetup.swift in Sources */,
 				815CC6DE2B5853A700726C8D /* BookingModel.swift in Sources */,
+				81545E522B5D304E00BC523D /* HomeDetailsViewController.swift in Sources */,
 				815CC65E2B584F1800726C8D /* AppDelegate.swift in Sources */,
 				815CC6EA2B5857EB00726C8D /* Constants.swift in Sources */,
 				815CC6F62B591E9F00726C8D /* TokenManager.swift in Sources */,
@@ -390,7 +385,6 @@
 				815CC6FE2B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */,
 				815CC6C52B5852C300726C8D /* HomeModel.swift in Sources */,
 				815CC6932B58518C00726C8D /* LoginViewController.swift in Sources */,
-				815CC70F2B5ABD1D00726C8D /* HomeDetailsViewController.swift in Sources */,
 				815CC6C22B5852C300726C8D /* HomeViewController.swift in Sources */,
 				815CC6DA2B58538400726C8D /* BookingViewModel.swift in Sources */,
 				815CC6E62B5853D600726C8D /* BookingViewController.swift in Sources */,
@@ -403,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				815CC6EF2B58580300726C8D /* APIService.swift in Sources */,
-				815CC7102B5ABD1D00726C8D /* HomeDetailsViewController.swift in Sources */,
 				81E4D7472B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */,
 				815CC6C32B5852C300726C8D /* HomeViewController.swift in Sources */,
 				815CC6FB2B596FB300726C8D /* APISetup.swift in Sources */,
@@ -440,7 +433,6 @@
 				815CC7002B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */,
 				815CC67F2B584F1A00726C8D /* CinergyUITests.swift in Sources */,
 				815CC6D32B5852D100726C8D /* LoginViewModel.swift in Sources */,
-				815CC7112B5ABD1D00726C8D /* HomeDetailsViewController.swift in Sources */,
 				815CC6C42B5852C300726C8D /* HomeViewController.swift in Sources */,
 				81E4D7482B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */,
 				815CC6DC2B58538400726C8D /* BookingViewModel.swift in Sources */,
