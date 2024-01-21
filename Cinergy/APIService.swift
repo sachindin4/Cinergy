@@ -66,8 +66,8 @@ class APIService {
             }
             do {
                 let decoder = JSONDecoder()
-                let login =  try decoder.decode(HomeModel.self, from: data)
-                completion(.success(login))
+                let movie =  try decoder.decode(HomeModel.self, from: data)
+                completion(.success(movie))
             } catch {
                 completion(.failure(error))
             }
