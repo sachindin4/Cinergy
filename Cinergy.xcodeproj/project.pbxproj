@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81545E522B5D304E00BC523D /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E502B5D304E00BC523D /* HomeDetailsViewController.swift */; };
-		81545E532B5D304E00BC523D /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81545E512B5D304E00BC523D /* HomeDetailsViewController.xib */; };
+		81545E5A2B5D32AB00BC523D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E542B5D32AB00BC523D /* HomeViewModel.swift */; };
+		81545E5B2B5D32AB00BC523D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E542B5D32AB00BC523D /* HomeViewModel.swift */; };
+		81545E5C2B5D32AB00BC523D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E542B5D32AB00BC523D /* HomeViewModel.swift */; };
+		81545E5D2B5D32AB00BC523D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E552B5D32AB00BC523D /* HomeCollectionViewCell.swift */; };
+		81545E5E2B5D32AB00BC523D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E552B5D32AB00BC523D /* HomeCollectionViewCell.swift */; };
+		81545E5F2B5D32AB00BC523D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E552B5D32AB00BC523D /* HomeCollectionViewCell.swift */; };
+		81545E602B5D32AB00BC523D /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81545E562B5D32AB00BC523D /* HomeDetailsViewController.xib */; };
+		81545E612B5D32AB00BC523D /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81545E562B5D32AB00BC523D /* HomeDetailsViewController.xib */; };
+		81545E622B5D32AB00BC523D /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81545E562B5D32AB00BC523D /* HomeDetailsViewController.xib */; };
+		81545E632B5D32AB00BC523D /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E572B5D32AB00BC523D /* HomeDetailsViewController.swift */; };
+		81545E642B5D32AB00BC523D /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E572B5D32AB00BC523D /* HomeDetailsViewController.swift */; };
+		81545E652B5D32AB00BC523D /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E572B5D32AB00BC523D /* HomeDetailsViewController.swift */; };
+		81545E662B5D32AB00BC523D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E582B5D32AB00BC523D /* HomeModel.swift */; };
+		81545E672B5D32AB00BC523D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E582B5D32AB00BC523D /* HomeModel.swift */; };
+		81545E682B5D32AB00BC523D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E582B5D32AB00BC523D /* HomeModel.swift */; };
+		81545E692B5D32AB00BC523D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E592B5D32AB00BC523D /* HomeViewController.swift */; };
+		81545E6A2B5D32AB00BC523D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E592B5D32AB00BC523D /* HomeViewController.swift */; };
+		81545E6B2B5D32AB00BC523D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81545E592B5D32AB00BC523D /* HomeViewController.swift */; };
 		815CC65E2B584F1800726C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC65D2B584F1800726C8D /* AppDelegate.swift */; };
 		815CC6602B584F1800726C8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC65F2B584F1800726C8D /* SceneDelegate.swift */; };
 		815CC6652B584F1800726C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815CC6632B584F1800726C8D /* Main.storyboard */; };
@@ -20,15 +36,6 @@
 		815CC6932B58518C00726C8D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6922B58518C00726C8D /* LoginViewController.swift */; };
 		815CC6942B58518C00726C8D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6922B58518C00726C8D /* LoginViewController.swift */; };
 		815CC6952B58518C00726C8D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6922B58518C00726C8D /* LoginViewController.swift */; };
-		815CC6BF2B5852C300726C8D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BC2B5852C300726C8D /* HomeViewModel.swift */; };
-		815CC6C02B5852C300726C8D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BC2B5852C300726C8D /* HomeViewModel.swift */; };
-		815CC6C12B5852C300726C8D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BC2B5852C300726C8D /* HomeViewModel.swift */; };
-		815CC6C22B5852C300726C8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BD2B5852C300726C8D /* HomeViewController.swift */; };
-		815CC6C32B5852C300726C8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BD2B5852C300726C8D /* HomeViewController.swift */; };
-		815CC6C42B5852C300726C8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BD2B5852C300726C8D /* HomeViewController.swift */; };
-		815CC6C52B5852C300726C8D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BE2B5852C300726C8D /* HomeModel.swift */; };
-		815CC6C62B5852C300726C8D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BE2B5852C300726C8D /* HomeModel.swift */; };
-		815CC6C72B5852C300726C8D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6BE2B5852C300726C8D /* HomeModel.swift */; };
 		815CC6CB2B5852D100726C8D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6C82B5852D100726C8D /* LoginModel.swift */; };
 		815CC6CC2B5852D100726C8D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6C82B5852D100726C8D /* LoginModel.swift */; };
 		815CC6CD2B5852D100726C8D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6C82B5852D100726C8D /* LoginModel.swift */; };
@@ -59,9 +66,6 @@
 		815CC6FA2B596FB300726C8D /* APISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F92B596FB300726C8D /* APISetup.swift */; };
 		815CC6FB2B596FB300726C8D /* APISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F92B596FB300726C8D /* APISetup.swift */; };
 		815CC6FC2B596FB300726C8D /* APISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6F92B596FB300726C8D /* APISetup.swift */; };
-		815CC6FE2B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */; };
-		815CC6FF2B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */; };
-		815CC7002B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */; };
 		81E4D7442B5BE9BF00716F24 /* BookingTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4D7432B5BE9BF00716F24 /* BookingTimeCollectionViewCell.swift */; };
 		81E4D7462B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4D7452B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift */; };
 		81E4D7472B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4D7452B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift */; };
@@ -86,8 +90,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81545E502B5D304E00BC523D /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeDetailsViewController.swift; path = Home/HomeDetailsViewController.swift; sourceTree = "<group>"; };
-		81545E512B5D304E00BC523D /* HomeDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeDetailsViewController.xib; path = Home/HomeDetailsViewController.xib; sourceTree = "<group>"; };
+		81545E542B5D32AB00BC523D /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = Home/HomeViewModel.swift; sourceTree = "<group>"; };
+		81545E552B5D32AB00BC523D /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeCollectionViewCell.swift; path = Home/HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		81545E562B5D32AB00BC523D /* HomeDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeDetailsViewController.xib; path = Home/HomeDetailsViewController.xib; sourceTree = "<group>"; };
+		81545E572B5D32AB00BC523D /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeDetailsViewController.swift; path = Home/HomeDetailsViewController.swift; sourceTree = "<group>"; };
+		81545E582B5D32AB00BC523D /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeModel.swift; path = Home/HomeModel.swift; sourceTree = "<group>"; };
+		81545E592B5D32AB00BC523D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Home/HomeViewController.swift; sourceTree = "<group>"; };
 		815CC65A2B584F1800726C8D /* Cinergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		815CC65D2B584F1800726C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		815CC65F2B584F1800726C8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,9 +109,6 @@
 		815CC67E2B584F1A00726C8D /* CinergyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinergyUITests.swift; sourceTree = "<group>"; };
 		815CC6802B584F1A00726C8D /* CinergyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinergyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		815CC6922B58518C00726C8D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Login/LoginViewController.swift; sourceTree = "<group>"; };
-		815CC6BC2B5852C300726C8D /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = Home/HomeViewModel.swift; sourceTree = "<group>"; };
-		815CC6BD2B5852C300726C8D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Home/HomeViewController.swift; sourceTree = "<group>"; };
-		815CC6BE2B5852C300726C8D /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeModel.swift; path = Home/HomeModel.swift; sourceTree = "<group>"; };
 		815CC6C82B5852D100726C8D /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginModel.swift; path = Login/LoginModel.swift; sourceTree = "<group>"; };
 		815CC6CA2B5852D100726C8D /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = Login/LoginViewModel.swift; sourceTree = "<group>"; };
 		815CC6D92B58538400726C8D /* BookingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookingViewModel.swift; path = Booking/BookingViewModel.swift; sourceTree = "<group>"; };
@@ -114,7 +119,6 @@
 		815CC6F12B586DF700726C8D /* CinergyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinergyButton.swift; sourceTree = "<group>"; };
 		815CC6F52B591E9F00726C8D /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
 		815CC6F92B596FB300726C8D /* APISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISetup.swift; sourceTree = "<group>"; };
-		815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCollectionViewCell.swift; path = Home/HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		81E4D7432B5BE9BF00716F24 /* BookingTimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookingTimeCollectionViewCell.swift; path = Booking/BookingTimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		81E4D7452B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookingDateCollectionViewCell.swift; path = Booking/BookingDateCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,12 +219,12 @@
 		815CC6A32B5851F500726C8D /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				81545E502B5D304E00BC523D /* HomeDetailsViewController.swift */,
-				81545E512B5D304E00BC523D /* HomeDetailsViewController.xib */,
-				815CC6BE2B5852C300726C8D /* HomeModel.swift */,
-				815CC6BD2B5852C300726C8D /* HomeViewController.swift */,
-				815CC6BC2B5852C300726C8D /* HomeViewModel.swift */,
-				815CC6FD2B5A588800726C8D /* HomeCollectionViewCell.swift */,
+				81545E552B5D32AB00BC523D /* HomeCollectionViewCell.swift */,
+				81545E572B5D32AB00BC523D /* HomeDetailsViewController.swift */,
+				81545E562B5D32AB00BC523D /* HomeDetailsViewController.xib */,
+				81545E582B5D32AB00BC523D /* HomeModel.swift */,
+				81545E592B5D32AB00BC523D /* HomeViewController.swift */,
+				81545E542B5D32AB00BC523D /* HomeViewModel.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -341,7 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81545E532B5D304E00BC523D /* HomeDetailsViewController.xib in Resources */,
+				81545E602B5D32AB00BC523D /* HomeDetailsViewController.xib in Resources */,
 				815CC66A2B584F1900726C8D /* LaunchScreen.storyboard in Resources */,
 				815CC6672B584F1900726C8D /* Assets.xcassets in Resources */,
 				815CC6652B584F1800726C8D /* Main.storyboard in Resources */,
@@ -352,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81545E612B5D32AB00BC523D /* HomeDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81545E622B5D32AB00BC523D /* HomeDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,21 +377,21 @@
 			files = (
 				815CC6EE2B58580300726C8D /* APIService.swift in Sources */,
 				81E4D7442B5BE9BF00716F24 /* BookingTimeCollectionViewCell.swift in Sources */,
-				815CC6BF2B5852C300726C8D /* HomeViewModel.swift in Sources */,
+				81545E632B5D32AB00BC523D /* HomeDetailsViewController.swift in Sources */,
 				815CC6F22B586DF700726C8D /* CinergyButton.swift in Sources */,
+				81545E662B5D32AB00BC523D /* HomeModel.swift in Sources */,
+				81545E5A2B5D32AB00BC523D /* HomeViewModel.swift in Sources */,
 				81E4D7462B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */,
 				815CC6D12B5852D100726C8D /* LoginViewModel.swift in Sources */,
 				815CC6FA2B596FB300726C8D /* APISetup.swift in Sources */,
 				815CC6DE2B5853A700726C8D /* BookingModel.swift in Sources */,
-				81545E522B5D304E00BC523D /* HomeDetailsViewController.swift in Sources */,
 				815CC65E2B584F1800726C8D /* AppDelegate.swift in Sources */,
 				815CC6EA2B5857EB00726C8D /* Constants.swift in Sources */,
+				81545E5D2B5D32AB00BC523D /* HomeCollectionViewCell.swift in Sources */,
 				815CC6F62B591E9F00726C8D /* TokenManager.swift in Sources */,
 				815CC6CB2B5852D100726C8D /* LoginModel.swift in Sources */,
-				815CC6FE2B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */,
-				815CC6C52B5852C300726C8D /* HomeModel.swift in Sources */,
+				81545E692B5D32AB00BC523D /* HomeViewController.swift in Sources */,
 				815CC6932B58518C00726C8D /* LoginViewController.swift in Sources */,
-				815CC6C22B5852C300726C8D /* HomeViewController.swift in Sources */,
 				815CC6DA2B58538400726C8D /* BookingViewModel.swift in Sources */,
 				815CC6E62B5853D600726C8D /* BookingViewController.swift in Sources */,
 				815CC6602B584F1800726C8D /* SceneDelegate.swift in Sources */,
@@ -398,19 +404,20 @@
 			files = (
 				815CC6EF2B58580300726C8D /* APIService.swift in Sources */,
 				81E4D7472B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */,
-				815CC6C32B5852C300726C8D /* HomeViewController.swift in Sources */,
 				815CC6FB2B596FB300726C8D /* APISetup.swift in Sources */,
 				815CC6DF2B5853A700726C8D /* BookingModel.swift in Sources */,
 				815CC6CC2B5852D100726C8D /* LoginModel.swift in Sources */,
+				81545E6A2B5D32AB00BC523D /* HomeViewController.swift in Sources */,
+				81545E5E2B5D32AB00BC523D /* HomeCollectionViewCell.swift in Sources */,
 				815CC6942B58518C00726C8D /* LoginViewController.swift in Sources */,
-				815CC6C62B5852C300726C8D /* HomeModel.swift in Sources */,
-				815CC6FF2B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */,
 				815CC6752B584F1A00726C8D /* CinergyTests.swift in Sources */,
+				81545E642B5D32AB00BC523D /* HomeDetailsViewController.swift in Sources */,
+				81545E672B5D32AB00BC523D /* HomeModel.swift in Sources */,
 				815CC6DB2B58538400726C8D /* BookingViewModel.swift in Sources */,
 				815CC6F32B586DF700726C8D /* CinergyButton.swift in Sources */,
+				81545E5B2B5D32AB00BC523D /* HomeViewModel.swift in Sources */,
 				815CC6E72B5853D600726C8D /* BookingViewController.swift in Sources */,
 				815CC6EB2B5857EB00726C8D /* Constants.swift in Sources */,
-				815CC6C02B5852C300726C8D /* HomeViewModel.swift in Sources */,
 				815CC6D22B5852D100726C8D /* LoginViewModel.swift in Sources */,
 				815CC6F72B591E9F00726C8D /* TokenManager.swift in Sources */,
 			);
@@ -420,23 +427,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81545E652B5D32AB00BC523D /* HomeDetailsViewController.swift in Sources */,
 				815CC6952B58518C00726C8D /* LoginViewController.swift in Sources */,
+				81545E6B2B5D32AB00BC523D /* HomeViewController.swift in Sources */,
+				81545E682B5D32AB00BC523D /* HomeModel.swift in Sources */,
 				815CC6812B584F1A00726C8D /* CinergyUITestsLaunchTests.swift in Sources */,
-				815CC6C72B5852C300726C8D /* HomeModel.swift in Sources */,
 				815CC6F42B586DF700726C8D /* CinergyButton.swift in Sources */,
 				815CC6FC2B596FB300726C8D /* APISetup.swift in Sources */,
 				815CC6EC2B5857EB00726C8D /* Constants.swift in Sources */,
 				815CC6F02B58580300726C8D /* APIService.swift in Sources */,
-				815CC6C12B5852C300726C8D /* HomeViewModel.swift in Sources */,
 				815CC6F82B591E9F00726C8D /* TokenManager.swift in Sources */,
+				81545E5F2B5D32AB00BC523D /* HomeCollectionViewCell.swift in Sources */,
 				815CC6CD2B5852D100726C8D /* LoginModel.swift in Sources */,
-				815CC7002B5A588800726C8D /* HomeCollectionViewCell.swift in Sources */,
 				815CC67F2B584F1A00726C8D /* CinergyUITests.swift in Sources */,
 				815CC6D32B5852D100726C8D /* LoginViewModel.swift in Sources */,
-				815CC6C42B5852C300726C8D /* HomeViewController.swift in Sources */,
 				81E4D7482B5BE9DA00716F24 /* BookingDateCollectionViewCell.swift in Sources */,
 				815CC6DC2B58538400726C8D /* BookingViewModel.swift in Sources */,
 				815CC6E82B5853D600726C8D /* BookingViewController.swift in Sources */,
+				81545E5C2B5D32AB00BC523D /* HomeViewModel.swift in Sources */,
 				815CC6E02B5853A700726C8D /* BookingModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
