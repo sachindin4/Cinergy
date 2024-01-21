@@ -88,10 +88,8 @@ class APIService {
             do {
                 let decoder = JSONDecoder()
                 let bookingInfo =  try decoder.decode(BookingModel.self, from: data)
-                print(bookingInfo)
                 completion(.success(bookingInfo))
             } catch {
-                print(error)
                 completion(.failure(error))
             }
         }
